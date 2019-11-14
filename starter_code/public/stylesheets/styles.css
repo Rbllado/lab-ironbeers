@@ -139,6 +139,7 @@ body {
   height: 100vh;
   width: auto;
   display: grid;
+  position: relative;
 }
 
 nav {
@@ -189,6 +190,7 @@ footer {
   background-color: #0a2c42;
   margin: 0;
   color: white;
+  position: sticky;
 }
 footer > section {
   padding: 30px;
@@ -212,6 +214,7 @@ footer > section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* text-align: center; */
+    /* 
+    text-align: center; */
 
 }
